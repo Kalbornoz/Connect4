@@ -23,15 +23,22 @@ The challenges encountered in the connect 4 game were to figure out how to calcu
 
 Another Challenge was creating a way to submit to the server once a game finished and have the server add the final score to the list of high scores. This was accomplished by using fetch, as we hadn't been introduced to axios yet.
 
-![Fetch code snippit](Connect4Screenshots/C4Fetch.jpg)
+<img src="Connect4Screenshots/C4Fetch.jpg" alt="Fetch snippit" width="250"/>
 
 Lastly, the highscores table had to be shown in sorted order according to the moves made. The main question was where the sorting should take place. I learned that sorting on the server side is always preferrable so I went ahead and sorted and sent the sorted table from the server
 
-![Sorted code snippit](Connect4Screenshots/C4Sorted.jpg)
+<img src="Connect4Screenshots/C4Sorted.jpg" alt="Sorted" width="450"/>
 
 ### Screenshots
 
-![Begin game](Connect4Screenshots/C4Start.jpg)
-![Game in Progress](Connect4Screenshots/C4Progress.jpg)
-![Winner](Connect4Screenshots/C4Winner.jpg)
-![Highscores](Connect4Screenshots/C4highscores.jpg)
+<table>
+  <tr>
+    <td><img src="Connect4Screenshots/C4Start.jpg" alt="beginning" width="250"/>
+    </td>
+    <td><img src="Connect4Screenshots/C4Progress.jpg" alt="in progress" width="250"/></td>
+  </tr>
+  <tr>
+    <td><img src="Connect4Screenshots/C4Winner.jpg" alt="winner" width="250"/></td>
+    <td><img src="Connect4Screenshots/C4highscores.jpg" alt="highscores" width="250"/></td>
+  </tr>
+</table>

@@ -19,19 +19,19 @@ This Connect 4 game was built using the MERN stack meaning it used
 
 The challenges encountered in the connect 4 game were to figure out how to calculate the winning moves. This was solved by creating a hard coded list of all possible winning states.
 
-![Winning code snippit](Connect4Screenshots/C4WinningStates.jpeg)
+![Winning code snippit](/Connect4Screenshots/C4WinningStates.jpg)
 
 Another Challenge was creating a way to submit to the server once a game finished and have the server add the final score to the list of high scores. This was accomplished by using fetch, as we hadn't been introduced to axios yet.
 
-![Fetch code snippit](Connect4Screenshots/C4Fetch.jpeg)
+![Fetch code snippit](Connect4Screenshots/C4Fetch.jpg)
 
 Lastly, the highscores table had to be shown in sorted order according to the moves made. The main question was where the sorting should take place. I learned that sorting on the server side is always preferrable so I went ahead and sorted and sent the sorted table from the server
 
-![Sorted code snippit](Connect4Screenshots/C4Sorted.jpeg)
+![Sorted code snippit](Connect4Screenshots/C4Sorted.jpg)
 
 ### Screenshots
 
-![Begin game](Connect4Screenshots/C4Start.jpeg)
-![Game in Progress](Connect4Screenshots/C4Progress.jpeg)
-![Winner](Connect4Screenshots/C4Winner.jpeg)
-![Highscores](Connect4Screenshots/C4highscores.jpeg)
+![Begin game](Connect4Screenshots/C4Start.jpg)
+![Game in Progress](Connect4Screenshots/C4Progress.jpg)
+![Winner](Connect4Screenshots/C4Winner.jpg)
+![Highscores](Connect4Screenshots/C4highscores.jpg)
